@@ -1,0 +1,65 @@
+
+.wrapper{
+    &_style1{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 50px;
+        overflow: hidden;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    &_style2{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 10%;
+        transform: translate(0, -50% );
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out; 
+    }
+    &_style3{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        right: 10%;
+        transform: translate(0, -50% ); 
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    &_style4{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        overflow: hidden;
+        right: 10%;
+        bottom: 10%;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    &_style5{
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        overflow: hidden;
+        left: 10%;
+        bottom: 10%;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+}

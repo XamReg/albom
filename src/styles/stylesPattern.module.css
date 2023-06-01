@@ -1,0 +1,18 @@
+
+
+
+.style1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px
+}
+.style2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50% );
+}

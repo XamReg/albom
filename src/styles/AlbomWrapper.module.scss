@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+}
+
+.wrapper{
+    max-height: 100vh;
+    max-width: 100vh;
+    &_container{
+        // background-color: aqua;
+        max-width: 1200px;
+        height: 100vh;
+        margin: 0 auto;
+        &_mainBlock{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50% ); 
+            width: 600px;
+            height: 800px;
+            background-color: rgba(237, 237, 237, 0.8);
+            border: 0.5px solid  black;
+            &_header{
+                width: 100%;
+                height: 80px;
+                // background-color: antiquewhite;
+                &_button{
+                    float: right;
+                    margin-right: 10px;
+                    margin-top: 10px;
+                    width: 120px;
+                    height: 40px;
+                    background-color: black;
+                    color: white;
+                    font-size: 18px;
+                    border-radius: 5px;
+                }
+            }
+            &_albom{
+                margin: 10px auto;
+                display: flex;
+                width: 560px;
+                height: 400px;
+                // background-color: yellow;
+                overflow: hidden; 
+                border: 0.3px solid black;
+                &_block{
+                    // overflow: hidden;
+                    transition: translate;
+                    transition-property: transform;
+                    transition-duration: 300ms;
+                    transition-timing-function: ease-in-out;
+                    position: relative;
+                    display: flex;
+                    min-width: 100%;
+                    min-height: 100%;
+                    &_backAlbom{
+                        display: flex;
+                        position: relative;
+                        // overflow: hidden;
+                        z-index: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+            &_pages{
+                display: flex;
+                margin: 0 auto;
+                max-width: 300px;
+                height: 50px;
+                // background-color: beige;
+                justify-content: center;
+                align-items: center;
+                &_text{
+                    font-size: 25px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: rgb(59, 59, 59);
+                }
+                &_buttonSwitch{
+                    margin: auto 15px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: rgba(207, 206, 206, 0.742);
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // text-align: center;
+                    &_left{
+                        width: 0;
+                        height: 0;
+                        border-top: 14px solid transparent;
+                        border-bottom: 14px solid transparent;
+                        border-right: 16px solid #292829;
+                    }
+                    &_right{
+                        width: 0;
+                        height: 0;
+                        border-top: 14px solid transparent;
+                        border-bottom: 14px solid transparent;
+                        border-left: 16px solid #292829;
+                    }
+
+
+                }
+            }
+            &_layout{
+                margin: 15px auto;
+                max-width: 350px;
+                height: 40px;
+                // background-color: rgb(199, 26, 26);
+                display: flex;
+                justify-content: space-between;
+                &_withoutStylesButton{
+                    display: flex;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    background-color: transparent;
+                    border: none;
+                    align-items: center;
+                    padding: 0px 10px 6px 10px;
+                    font-size: 20px;
+                    height: 35px;
+                }
+                &_buttonL{
+                    display: flex;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    background-color: transparent;
+                    border-top: none ;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 3px solid black ;
+                    align-items: center;
+                    padding: 0px 10px 6px 10px;
+                    font-size: 20px;
+                    height: 35px;
+                }
+            }
+            &_button{
+                height: 25px;
+                max-width: 560px;
+                margin: 0 auto;
+                // background-color: aquamarine;
+                &_clearnButton{
+                    cursor: pointer;
+                    width: 120px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    background-color: transparent;
+                    color: rgb(50, 50, 50);
+                    border: none;
+                    font-size: 20px;
+                    height: 22px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    img{
+                        margin-right: 5px;
+                        text-align: center;
+                        align-items: center;
+                        color: aliceblue;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            &_photo{
+                display: flex;
+                flex-wrap: wrap;
+                overflow-y: scroll;
+                margin: 10px 15px 10px 15px;
+                max-width: 100%;
+                min-height: 100px;
+                max-height: 130px;
+                &_blockForPhoto{
+                    border-radius: 8px;
+                    margin: 5px 10px;
+                    width: 160px;
+                    height: 70px;
+                    border: 3px solid black;
+                    border-style: dashed;
+                }
+            }
+        }
+    }
+}
