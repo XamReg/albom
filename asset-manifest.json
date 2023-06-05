@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/XamReg/albom/static/css/main.f066ce50.css",
-    "main.js": "/XamReg/albom/static/js/main.28586a28.js",
-    "index.html": "/XamReg/albom/index.html",
-    "main.f066ce50.css.map": "/XamReg/albom/static/css/main.f066ce50.css.map",
-    "main.28586a28.js.map": "/XamReg/albom/static/js/main.28586a28.js.map"
+    "main.css": "/XamReg/albom.git/static/css/main.f066ce50.css",
+    "main.js": "/XamReg/albom.git/static/js/main.28586a28.js",
+    "index.html": "/XamReg/albom.git/index.html",
+    "main.f066ce50.css.map": "/XamReg/albom.git/static/css/main.f066ce50.css.map",
+    "main.28586a28.js.map": "/XamReg/albom.git/static/js/main.28586a28.js.map"
   },
   "entrypoints": [
     "static/css/main.f066ce50.css",
