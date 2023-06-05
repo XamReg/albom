@@ -27,7 +27,6 @@ body{
             &_header{
                 width: 100%;
                 height: 80px;
-                // background-color: antiquewhite;
                 &_button{
                     float: right;
                     margin-right: 10px;
@@ -45,11 +44,9 @@ body{
                 display: flex;
                 width: 560px;
                 height: 400px;
-                // background-color: yellow;
                 overflow: hidden; 
                 border: 0.3px solid black;
                 &_block{
-                    // overflow: hidden;
                     transition: translate;
                     transition-property: transform;
                     transition-duration: 300ms;
@@ -61,7 +58,6 @@ body{
                     &_backAlbom{
                         display: flex;
                         position: relative;
-                        // overflow: hidden;
                         z-index: 0;
                         width: 100%;
                         height: 100%;
@@ -74,7 +70,6 @@ body{
                 margin: 0 auto;
                 max-width: 300px;
                 height: 50px;
-                // background-color: beige;
                 justify-content: center;
                 align-items: center;
                 &_text{
@@ -92,7 +87,6 @@ body{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    // text-align: center;
                     &_left{
                         width: 0;
                         height: 0;
@@ -115,7 +109,6 @@ body{
                 margin: 15px auto;
                 max-width: 350px;
                 height: 40px;
-                // background-color: rgb(199, 26, 26);
                 display: flex;
                 justify-content: space-between;
                 &_withoutStylesButton{
@@ -146,7 +139,6 @@ body{
                 height: 25px;
                 max-width: 560px;
                 margin: 0 auto;
-                // background-color: aquamarine;
                 &_clearnButton{
                     cursor: pointer;
                     width: 120px;
